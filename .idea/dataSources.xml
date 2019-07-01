@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="bap_development@localhost" uuid="5e8700db-f8dc-4bc1-9f95-f9098d446242">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/bap_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="bap_test@localhost" uuid="18f20459-a872-443d-ab37-158cd66889f6">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/bap_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="bap_production@localhost" uuid="d4275964-f3d3-40e8-9bee-ee897859db31">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/bap_production</jdbc-url>
+    </data-source>
+  </component>
+</project>
