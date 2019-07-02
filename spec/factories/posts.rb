@@ -1,8 +1,8 @@
 FactoryBot.define do
   factory :post do
-    title {}
-    info { Faker::Quote }
-    created_by { Faker::StarWars.character }
+    title { Faker::TvShows::Simpsons.character }
+    info { Faker::TvShows::SiliconValley.character }
+    created_by { Faker::Movies::StarWars.character }
     date { DateTime.now }
   end
 end
