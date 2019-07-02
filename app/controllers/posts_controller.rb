@@ -13,12 +13,12 @@ class PostsController < ApplicationController
     json_response(@post, :created)
   end
 
-  # GET /todos/:id
+  # GET /posts/:id
   def show
     json_response(@post)
   end
 
-  # GET /todos/:id
+  # PUT /posts/:id
   def update
     @post.update(post_params)
     head :no_content
