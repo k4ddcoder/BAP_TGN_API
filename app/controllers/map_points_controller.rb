@@ -1,0 +1,2 @@
+class MapPointsController < ApplicationController
+end
